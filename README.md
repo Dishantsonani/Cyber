@@ -16,6 +16,15 @@ sha256sum Demo.txt,
 sha256sum Demo.txt > hash.txt,
 sha256sum -c hash.txt
 
+echo "Hello, Parul Students" | md5sum,
+echo "Hello, Parul Students" | sha256sum,
+cat > Demo.txt,
+openssl enc -aes-256-cbc -salt -in Demo.txt -out encrypted.txt,
+cat Demo.txt,
+cat encrypted.txt,
+openssl enc -d -aes-256-cbc -in encrypted.txt -out decrypted.txt,
+cat decrypted.txt
+
 4.John the ripper :
 echo b24331b1a138cde62aa1f679164fc62f > hashpsw.txt,
 cat hashpsw.txt,
