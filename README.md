@@ -33,3 +33,8 @@ create zip file on desktop and use password 12345 and my filename is hashpsw.zip
 cd Desktop,
 ls,
 zip2john hashpsw.zip > hash.txt
+
+"><script>alert(1)</script>
+
+bamesschool.com.ng
+1' OR '1'='1
